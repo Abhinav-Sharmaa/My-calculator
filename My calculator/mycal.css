@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(./76580b1b006939a.jpg);
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.txt {
+    width: 429px;
+    height: 80px;
+    font-size: 5rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+}
+
+.heding {
+    font-size: 2.4rem;
+    margin-bottom: 60px;
+    color: white;
+    text-decoration: underline;
+}
+
+.btn {
+    width: 106px;
+    height: 106px;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 18px;
+    background-color: transparent;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.btn:hover {
+    transition-timing-function: step-start;
+    background-color: gray;
+}
